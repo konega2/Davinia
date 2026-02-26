@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "title": "Davinia Do Santo | Tattoo Artist",
+    "description": "Editorial portfolio van Davinia Do Santo. Black & grey realism, anime en color pop art met een filmische, minimalistische esthetiek."
+  },
+  "nav": {
+    "brand": "Davinia Do Santo",
+    "artwork": "ARTWORK",
+    "locales": {
+      "es": "ES",
+      "en": "EN",
+      "fr": "FR",
+      "it": "IT",
+      "de": "DE",
+      "nl": "NL",
+      "pt": "PT"
+    }
+  },
+  "hero": {
+    "nameLine1": "DAVINIA",
+    "nameLine2": "DO SANTO",
+    "subtitle": "Black & Grey Realism · Anime · Color Pop Art",
+    "description": "Mijn werk draait om black & grey realism, anime-stijl en color pop art. Elk stuk ontstaat met intentie en precisie."
+  },
+  "story": {
+    "lines": ["Elke tattoo", "die ik zet", "vertelt een verhaal."]
+  },
+  "styles": {
+    "label": "MIJN STIJL",
+    "headline": "Een selectie van de stijlen waarmee ik werk.",
+    "cards": {
+      "realism_bn": {
+        "title": "B&G REALISM",
+        "description": "Ik werk black & grey realism met contrast, textuur en diepte.",
+        "alt": "Black and grey realism"
+      },
+      "anime": {
+        "title": "ANIME",
+        "description": "Ik vertaal personages en scènes met heldere storytelling en strakke lijnen.",
+        "alt": "Anime"
+      },
+      "color_pop_art": {
+        "title": "COLOR POP ART",
+        "description": "Kleur, energie en een pop-look met een compositie voor jouw lichaam.",
+        "alt": "Color pop art"
+      }
+    }
+  },
+  "trajectory": {
+    "label": "MIJN PAD",
+    "title": "Ik leerde niet alleen tatoeëren.\nIk leerde me met kunst te bewegen.",
+    "timeline": [
+      {
+        "title": "ZWITSERLAND",
+        "text": "Waar ik mijn techniek en precisie in black & grey realism heb verfijnd."
+      },
+      {
+        "title": "INTERNATIONALE CRUISES",
+        "text": "Mijn kunst naar verschillende landen brengen leerde me elk stuk aan elk verhaal aan te passen."
+      },
+      {
+        "title": "CONSTANTE EVOLUTIE",
+        "text": "Ik blijf studeren, experimenteren en groeien als artiest."
+      }
+    ]
+  },
+  "locationsAvailability": {
+    "label": "LOCATIE",
+    "title": "Internationaal beschikbaar.",
+    "description": "Momenteel werk ik tussen Zwitserland, Memphis21 (Gandia) en internationale cruiseprojecten. Mijn agenda is ingedeeld per seizoen en locatie, waardoor boekingen worden beheerd op basis van beschikbaarheid.",
+    "list": ["ZWITSERLAND", "MEMPHIS21 · GANDIA", "INTERNATIONALE CRUISES", "EUROPA"],
+    "upcomingTitle": "Volgende beschikbare data:",
+    "upcomingItems": ["— Maart · Zwitserland", "— Juni · Middellandse Zee-cruise"]
+  },
+  "process": {
+    "label": "HET PROCES",
+    "title": "Elk stuk heeft zijn ritme.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Concept",
+        "description": "Ik luister naar je idee en vertaal het naar een heldere, persoonlijke creatieve richting."
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "description": "Elk stuk wordt vanaf nul opgebouwd, aangepast aan jouw anatomie en stijl."
+      },
+      {
+        "number": "03",
+        "title": "Uitvoering",
+        "description": "Precies werk in een professionele omgeving—zorgvuldig en gecontroleerd."
+      }
+    ]
+  },
+  "studio": {
+    "label": "DE STUDIO",
+    "titleLines": ["Een plek", "waar detail", "telt."],
+    "p1": "Ik werk in een professionele, hygiënische en gecontroleerde omgeving. Elke sessie verloopt rustig, precies en met respect voor je huid.",
+    "p2": "Ik creëer een persoonlijke ervaring waarin gesprek en vertrouwen deel zijn van het creatieve proces.",
+    "imageAlt": "Studio-interieur"
+  },
+  "portfolio": {
+    "label": "MIJN WERK",
+    "title": "Verhalen die in de huid gegrift zijn.",
+    "descriptionLine1": "Elk stuk komt voort uit een ander verhaal.",
+    "descriptionLine2": "Filter op stijl en ontdek mijn artistieke universum.",
+    "filters": {
+      "realism_bn": "B&G REALISM",
+      "anime": "ANIME",
+      "color_pop_art": "COLOR POP ART",
+      "fine_line": "FINE LINE"
+    },
+    "galleryHeadingAll": "GALERIJ",
+    "count": "{count, plural, one {# stuk} other {# stukken}}",
+    "imageAlt": "Tattoo in {style}-stijl"
+  },
+  "artwork": {
+    "label": "KUNST",
+    "title": "Verder dan de huid.",
+    "description": "Naast tatoeëren ontwikkel ik mijn artistieke werk op canvas. Elke work behoudt mijn visuele signatuur en verkent realisme, kleur en hedendaagse expressie.",
+    "items": [
+      { "alt": "Canvaswerk 01" },
+      { "alt": "Canvaswerk 02" },
+      { "alt": "Canvaswerk 03" }
+    ]
+  },
+  "faq": {
+    "label": "INFO",
+    "title": "Veelgestelde vragen.",
+    "items": [
+      {
+        "question": "Hoe boek ik een afspraak?",
+        "answer": "Boekingen gaan exclusief via WhatsApp. Stuur me je idee, een indicatieve grootte en de plek op het lichaam. Ik reageer met beschikbaarheid en een richtprijs."
+      },
+      {
+        "question": "Doe je alle stijlen?",
+        "answer": "Mijn werk focust op black & grey realism, anime-stijl en color pop art. Heb je een ander idee, stuur me een WhatsApp en ik laat je weten of het past."
+      },
+      {
+        "question": "Wat kost een tattoo?",
+        "answer": "De prijs hangt af van grootte, complexiteit, plaatsing en de geschatte tijd. Elk stuk is custom, dus ik geef altijd vooraf een prijsopgave."
+      },
+      {
+        "question": "Is er een aanbetaling nodig?",
+        "answer": "Ja. Om de afspraak te bevestigen is een aanbetaling nodig. Die reserveert je datum en gaat van de eindprijs af."
+      },
+      {
+        "question": "Doe je cover-ups of touch-ups?",
+        "answer": "Ja, ik doe cover-ups en touch-ups van mijn eigen werk. Stuur een duidelijke foto van de plek zodat ik het goed kan inschatten."
+      },
+      {
+        "question": "Minimumleeftijd voor een tattoo?",
+        "answer": "De minimumleeftijd is 18. Ik tattooëer geen minderjarigen."
+      }
+    ]
+  },
+  "booking": {
+    "label": "BOEKEN",
+    "title": "Laten we je volgende stuk plannen.",
+    "p1": "Heb je een idee of wil je vanaf nul beginnen, stuur me direct een bericht en we geven het samen vorm.",
+    "locationsTitle": "Boekingen beschikbaar in:",
+    "locations": ["Zwitserland", "Memphis21 · Gandia", "Internationale cruises"],
+    "whatsappOnly": "Boekingen gaan exclusief via WhatsApp.",
+    "whatsappCta": "BOEK VIA WHATSAPP",
+    "instagramCta": "MEER OP INSTAGRAM",
+    "instagramNoteLine1": "Instagram is alleen om werk te bekijken.",
+    "instagramNoteLine2": "Boekingen gaan alleen via WhatsApp."
+  },
+  "footer": {
+    "brandTitle": "DAVINIA DO SANTO",
+    "subtextLine1": "Realism · Anime · Color Pop Art",
+    "subtextLine2": "International artist",
+    "locationLabel": "LOCATIE",
+    "locations": ["Zwitserland", "Memphis21 · Gandia", "Internationale cruises", "Europa"],
+    "contactLabel": "CONTACT",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "copyright": "© 2026 Davinia Do Santo",
+    "rights": "Alle rechten voorbehouden."
+  },
+  "schema": {
+    "jobTitle": "Tattoo Artist",
+    "addressLocality": "Zwitserland",
+    "addressCountry": "CH",
+    "url": "https://memphis21.art"
+  },
+  "processLegacy": {
+    "eyebrow": "Ervaring",
+    "title": "Een persoonlijk, exclusief en volledig begeleid proces.",
+    "steps": [
+      {
+        "id": "01",
+        "title": "Concept",
+        "description": "Een persoonlijk gesprek om idee, emotie en referenties te vertalen naar een visuele richting."
+      },
+      {
+        "id": "02",
+        "title": "Design",
+        "description": "Een exclusieve schets met compositie afgestemd op het lichaam en een tijdloze esthetiek."
+      },
+      {
+        "id": "03",
+        "title": "Uitvoering",
+        "description": "Een precieze, gecontroleerde sessie met focus op detail, ritme en een elegant resultaat."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Booking",
+    "title": "Als je volgende stuk echte artistieke richting verdient, laten we beginnen.",
+    "description": "Open agenda voor geselecteerde projecten. Boekingen beschikbaar in Zwitserland, Memphis21 (Gandia) en op internationale cruises.",
+    "instagram": "Instagram",
+    "copyright": "{brand} © 2026"
+  },
+  "signature": {
+    "label": "Signature selectie",
+    "items": [
+      {
+        "alt": "Artistiek detail",
+        "title": "Organische lijnen"
+      },
+      {
+        "alt": "Editorial compositie",
+        "title": "Editorial contrast"
+      },
+      {
+        "alt": "Visuele textuur",
+        "title": "Filmische textuur"
+      }
+    ]
+  }
+}

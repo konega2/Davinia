@@ -2,10 +2,14 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const sectionEase: [number, number, number, number] = [0.25, 0.1, 0.25, 1];
 
 export default function StudioSection() {
+  const t = useTranslations("studio");
+  const titleLines = t.raw("titleLines") as string[];
+
   return (
     <section
       id="studio_section_cinematic_v4"
@@ -19,28 +23,22 @@ export default function StudioSection() {
           transition={{ duration: 0.8, ease: sectionEase }}
         >
           <p className="mb-8 text-xs uppercase tracking-[0.4em] text-white/40">
-            EL ESTUDIO
+            {t("label")}
           </p>
 
           <div className="mb-12 h-px w-16 bg-white/20" />
 
           <h2 className="mb-12 font-serif text-5xl leading-[1.1] text-white md:text-6xl">
-            Un espacio
+            {titleLines[0]}
             <br />
-            donde el detalle
+            {titleLines[1]}
             <br />
-            importa.
+            {titleLines[2]}
           </h2>
 
           <div className="max-w-lg space-y-6 text-lg leading-relaxed text-white/70">
-            <p>
-              Trabajo en un entorno profesional, higiénico y controlado. Cada
-              sesión se desarrolla con calma, precisión y respeto por tu piel.
-            </p>
-            <p>
-              Creo una experiencia personalizada donde la conversación y la
-              confianza forman parte del proceso creativo.
-            </p>
+            <p>{t("p1")}</p>
+            <p>{t("p2")}</p>
           </div>
         </motion.div>
 
@@ -53,7 +51,7 @@ export default function StudioSection() {
         >
           <Image
             src="/estudio.png"
-            alt="Interior del estudio de tatuaje"
+            alt={t("imageAlt")}
             width={1200}
             height={1500}
             className="aspect-[4/5] w-full rounded-3xl object-cover brightness-95 contrast-105"

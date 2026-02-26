@@ -1,31 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-const processItems = [
-  {
-    number: "01",
-    title: "Concepto",
-    description:
-      "Escucho tu idea y la transformo en una dirección creativa clara y personal.",
-  },
-  {
-    number: "02",
-    title: "Diseño",
-    description:
-      "Cada pieza se construye desde cero, adaptada a tu anatomía y estilo.",
-  },
-  {
-    number: "03",
-    title: "Ejecución",
-    description:
-      "Trabajo preciso en un entorno profesional, cuidado y controlado.",
-  },
-];
+import { useTranslations } from "next-intl";
 
 const sectionEase: [number, number, number, number] = [0.25, 0.1, 0.25, 1];
 
 export default function ProcessExperienceSection() {
+  const t = useTranslations("process");
+  const processItems = t.raw("items") as Array<{
+    number: string;
+    title: string;
+    description: string;
+  }>;
+
   return (
     <section
       id="process_manifesto_layout_v1"
@@ -33,10 +20,10 @@ export default function ProcessExperienceSection() {
     >
       <div>
         <p className="mb-8 text-xs uppercase tracking-[0.4em] text-white/40">
-          EL PROCESO
+          {t("label")}
         </p>
         <h2 className="mb-32 max-w-4xl font-serif text-5xl leading-tight text-white md:text-7xl">
-          Cada pieza tiene su ritmo.
+          {t("title")}
         </h2>
       </div>
 

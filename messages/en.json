@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "title": "Davinia Do Santo | Tattoo Artist",
+    "description": "Editorial portfolio by Davinia Do Santo. Black and grey realism, anime and color pop art with a cinematic, minimal aesthetic."
+  },
+  "nav": {
+    "brand": "Davinia Do Santo",
+    "artwork": "ARTWORK",
+    "locales": {
+      "es": "ES",
+      "en": "EN",
+      "fr": "FR",
+      "it": "IT",
+      "de": "DE",
+      "nl": "NL",
+      "pt": "PT"
+    }
+  },
+  "hero": {
+    "nameLine1": "DAVINIA",
+    "nameLine2": "DO SANTO",
+    "subtitle": "Black & Grey Realism · Anime · Color Pop Art",
+    "description": "My work focuses on black and grey realism, anime style and color pop art. Every piece is built with intention and precision."
+  },
+  "story": {
+    "lines": ["Every tattoo", "I create tells", "a story."]
+  },
+  "styles": {
+    "label": "MY STYLE",
+    "headline": "A selection of the styles I work with.",
+    "cards": {
+      "realism_bn": {
+        "title": "B&G REALISM",
+        "description": "I work black and grey realism with contrast, texture and depth.",
+        "alt": "Black and grey realism"
+      },
+      "anime": {
+        "title": "ANIME",
+        "description": "I interpret characters and scenes with clear storytelling and clean lines.",
+        "alt": "Anime"
+      },
+      "color_pop_art": {
+        "title": "COLOR POP ART",
+        "description": "Color, energy and a pop read with a composition made for your body.",
+        "alt": "Color pop art"
+      }
+    }
+  },
+  "trajectory": {
+    "label": "MY PATH",
+    "title": "I didn’t only learn to tattoo.\nI learned to move with art.",
+    "timeline": [
+      {
+        "title": "SWITZERLAND",
+        "text": "Where I refined my technique and precision in black and grey realism."
+      },
+      {
+        "title": "INTERNATIONAL CRUISES",
+        "text": "Taking my art to different countries taught me to adapt each piece to each story."
+      },
+      {
+        "title": "CONSTANT EVOLUTION",
+        "text": "I keep studying, experimenting and growing as an artist."
+      }
+    ]
+  },
+  "locationsAvailability": {
+    "label": "LOCATION",
+    "title": "Available internationally.",
+    "description": "I currently work between Switzerland, Memphis21 (Gandia) and international cruise projects. My schedule is organized by season and location, so bookings are managed based on availability.",
+    "list": ["SWITZERLAND", "MEMPHIS21 · GANDIA", "INTERNATIONAL CRUISES", "EUROPE"],
+    "upcomingTitle": "Next available dates:",
+    "upcomingItems": ["— March · Switzerland", "— June · Mediterranean Cruise"]
+  },
+  "process": {
+    "label": "THE PROCESS",
+    "title": "Every piece has its rhythm.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Concept",
+        "description": "I listen to your idea and turn it into a clear, personal creative direction."
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "description": "Every piece is built from scratch, adapted to your anatomy and style."
+      },
+      {
+        "number": "03",
+        "title": "Execution",
+        "description": "Precise work in a professional environment—careful and controlled."
+      }
+    ]
+  },
+  "studio": {
+    "label": "THE STUDIO",
+    "titleLines": ["A space", "where detail", "matters."],
+    "p1": "I work in a professional, hygienic and controlled environment. Each session is carried out with calm, precision and respect for your skin.",
+    "p2": "I create a personalized experience where conversation and trust are part of the creative process.",
+    "imageAlt": "Studio interior"
+  },
+  "portfolio": {
+    "label": "MY WORK",
+    "title": "Stories marked on skin.",
+    "descriptionLine1": "Each piece is born from a different story.",
+    "descriptionLine2": "Filter by style and explore my artistic universe.",
+    "filters": {
+      "realism_bn": "B&G REALISM",
+      "anime": "ANIME",
+      "color_pop_art": "COLOR POP ART",
+      "fine_line": "FINE LINE"
+    },
+    "galleryHeadingAll": "GALLERY",
+    "count": "{count, plural, one {# piece} other {# pieces}}",
+    "imageAlt": "Tattoo in {style} style"
+  },
+  "artwork": {
+    "label": "ART",
+    "title": "Beyond the skin.",
+    "description": "Beyond tattooing, I develop my artistic work on canvas. Each piece keeps my visual essence, exploring realism, color and contemporary expression.",
+    "items": [
+      { "alt": "Canvas artwork 01" },
+      { "alt": "Canvas artwork 02" },
+      { "alt": "Canvas artwork 03" }
+    ]
+  },
+  "faq": {
+    "label": "INFO",
+    "title": "Frequently asked questions.",
+    "items": [
+      {
+        "question": "How do I book an appointment?",
+        "answer": "Bookings are handled exclusively via WhatsApp. Message me with your idea, approximate size and the body area. I’ll reply with availability and an estimated quote."
+      },
+      {
+        "question": "Do you work all styles?",
+        "answer": "My work focuses on black and grey realism, anime style and color pop art. If you have a different idea, message me on WhatsApp and I’ll tell you if it’s a fit."
+      },
+      {
+        "question": "How much does a tattoo cost?",
+        "answer": "Pricing depends on size, complexity, placement and estimated time. Every piece is custom, so I always provide a quote beforehand."
+      },
+      {
+        "question": "Do you require a deposit to book?",
+        "answer": "Yes. A deposit is required to confirm the appointment. It secures your date and is deducted from the final price."
+      },
+      {
+        "question": "Do you do cover-ups or touch-ups?",
+        "answer": "Yes, I do cover-ups and touch-ups for my own work. Send a clear photo of the area so I can assess it properly."
+      },
+      {
+        "question": "Minimum age to get tattooed?",
+        "answer": "The minimum age is 18. I don’t tattoo minors."
+      }
+    ]
+  },
+  "booking": {
+    "label": "BOOKING",
+    "title": "Let’s plan your next piece.",
+    "p1": "If you have an idea in mind or want to start from zero, message me directly and we’ll shape it together.",
+    "locationsTitle": "Bookings available in:",
+    "locations": ["Switzerland", "Memphis21 · Gandia", "International cruises"],
+    "whatsappOnly": "Bookings are handled exclusively via WhatsApp.",
+    "whatsappCta": "BOOK VIA WHATSAPP",
+    "instagramCta": "SEE MORE ON INSTAGRAM",
+    "instagramNoteLine1": "Instagram is only for viewing work.",
+    "instagramNoteLine2": "Bookings are handled only via WhatsApp."
+  },
+  "footer": {
+    "brandTitle": "DAVINIA DO SANTO",
+    "subtextLine1": "Realism · Anime · Color Pop Art",
+    "subtextLine2": "International artist",
+    "locationLabel": "LOCATION",
+    "locations": ["Switzerland", "Memphis21 · Gandia", "International cruises", "Europe"],
+    "contactLabel": "CONTACT",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "copyright": "© 2026 Davinia Do Santo",
+    "rights": "All rights reserved."
+  },
+  "schema": {
+    "jobTitle": "Tattoo Artist",
+    "addressLocality": "Switzerland",
+    "addressCountry": "CH",
+    "url": "https://memphis21.art"
+  },
+  "processLegacy": {
+    "eyebrow": "Experience",
+    "title": "A personal, exclusive and fully guided process.",
+    "steps": [
+      {
+        "id": "01",
+        "title": "Concept",
+        "description": "A personal conversation to translate your idea, emotion and references into a clear visual direction."
+      },
+      {
+        "id": "02",
+        "title": "Design",
+        "description": "An exclusive sketch with a composition adapted to the body and a timeless aesthetic read."
+      },
+      {
+        "id": "03",
+        "title": "Execution",
+        "description": "A precise, controlled session focused on detail, rhythm and an elegant result."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Booking",
+    "title": "If your next piece deserves real artistic direction, let’s begin.",
+    "description": "Open agenda for selected projects. Bookings available in Switzerland, Memphis21 (Gandia) and international cruises.",
+    "instagram": "Instagram",
+    "copyright": "{brand} © 2026"
+  },
+  "signature": {
+    "label": "Signature selection",
+    "items": [
+      {
+        "alt": "Artistic detail",
+        "title": "Organic lines"
+      },
+      {
+        "alt": "Editorial composition",
+        "title": "Editorial contrast"
+      },
+      {
+        "alt": "Visual texture",
+        "title": "Cinematic texture"
+      }
+    ]
+  }
+}

@@ -1,47 +1,68 @@
+import { useTranslations } from "next-intl";
+
 export default function FooterEditorialSection() {
+  const t = useTranslations("footer");
+  const locations = t.raw("locations") as string[];
+
   return (
-    <section
-      id="footer_editorial_v1"
-      className="relative w-full border-t border-white/5 bg-[#0a0a0a] px-8 pb-0 pt-12 md:px-24 md:pb-0 md:pt-14"
-    >
-      <div className="mx-auto max-w-[1400px]">
-        <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+    <footer className="relative w-full bg-[#0a0a0a] px-8 md:px-24 py-32 border-t border-white/5">
+      <div className="mx-auto max-w-7xl">
+        <div className="flex flex-col gap-16 md:grid md:grid-cols-3 md:gap-20 md:items-start">
           <div>
-            <h3 className="mb-4 font-serif text-2xl text-white">Memphis 21 Tattoo</h3>
-            <p className="max-w-md text-sm leading-relaxed text-white/50">
-              Estudio de tatuaje especializado en realismo, blackwork y diseño
-              personalizado.
+            <h3 className="mb-6 font-serif text-2xl text-white">
+              {t("brandTitle")}
+            </h3>
+            <p className="max-w-xs text-sm leading-relaxed text-white/50">
+              {t("subtextLine1")}
+              <br />
+              {t("subtextLine2")}
             </p>
           </div>
 
-          <div className="space-y-6">
-            <a
-              href="https://wa.me/34650644628"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-sm uppercase tracking-[0.3em] text-white/50 transition duration-300 hover:text-white"
-            >
-              WHATSAPP
-            </a>
-            <a
-              href="https://www.instagram.com/memphis21tattoo/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-sm uppercase tracking-[0.3em] text-white/50 transition duration-300 hover:text-white"
-            >
-              INSTAGRAM
-            </a>
+          <div>
+            <p className="mb-6 text-xs uppercase tracking-[0.4em] text-white/40">
+              {t("locationLabel")}
+            </p>
+            <div className="space-y-3 text-sm text-white/70">
+              {locations.map((item) => (
+                <p key={item}>{item}</p>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <p className="mb-6 text-xs uppercase tracking-[0.4em] text-white/40">
+              {t("contactLabel")}
+            </p>
+            <div className="space-y-3">
+              <a
+                href="https://wa.me/34650644628"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-sm text-white/70 transition duration-300 hover:text-white"
+              >
+                {t("whatsapp")}
+              </a>
+              <a
+                href="https://www.instagram.com/daviniadosantotattoo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-sm text-white/70 transition duration-300 hover:text-white"
+              >
+                {t("instagram")}
+              </a>
+            </div>
           </div>
         </div>
 
-        <div className="mt-8 border-t border-white/5 pt-6 text-center md:mt-10">
+        <div className="mt-20 border-t border-white/5 pt-10 text-center">
           <p className="text-xs tracking-widest text-white/30">
-            © 2026 Memphis 21 Tattoo
+            {t("copyright")}
             <br />
-            Todos los derechos reservados.
+            {t("rights")}
           </p>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }

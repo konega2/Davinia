@@ -2,8 +2,10 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { useTranslations } from "next-intl";
 
 export default function HeroSection() {
+  const t = useTranslations("hero");
   const sectionRef = useRef<HTMLElement | null>(null);
 
   const { scrollYProgress } = useScroll({
@@ -44,7 +46,7 @@ export default function HeroSection() {
                 transition={{ duration: 0.9, delay: 0.22, ease: "easeOut" }}
                 className="inline-block"
               >
-                MEMPHIS
+                {t("nameLine1")}
               </motion.span>
             </motion.h1>
           </div>
@@ -62,7 +64,7 @@ export default function HeroSection() {
                 transition={{ duration: 0.82, delay: 0.4, ease: "easeOut" }}
                 className="inline-block"
               >
-                21
+                {t("nameLine2")}
               </motion.span>
             </motion.p>
           </div>
@@ -74,7 +76,10 @@ export default function HeroSection() {
           transition={{ duration: 0.95, delay: 0.92, ease: "easeOut" }}
           className="mt-5 text-[12px] uppercase tracking-[0.28em] text-brand-beige sm:mt-6 sm:text-[14px] sm:tracking-[0.34em]"
         >
-          Tattoo Artist — Gandía
+          <span className="block">{t("subtitle")}</span>
+          <span className="mt-3 block text-[12px] normal-case tracking-normal text-white/55 sm:text-[14px]">
+            {t("description")}
+          </span>
         </motion.p>
       </motion.div>
 

@@ -2,40 +2,12 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-
-const faqItems = [
-  {
-    question: "¿Cómo reservo una cita?",
-    answer:
-      "Las reservas se gestionan exclusivamente por WhatsApp. Escríbeme explicando tu idea, tamaño aproximado y zona del cuerpo. Te responderé con disponibilidad y presupuesto orientativo.",
-  },
-  {
-    question: "¿Trabajas todos los estilos?",
-    answer:
-      "Trabajo bastantes estilos. Para asegurarnos de que encaja contigo y con tu idea, háblame por WhatsApp y lo valoramos juntos.",
-  },
-  {
-    question: "¿Cuánto cuesta un tatuaje?",
-    answer:
-      "El precio depende del tamaño, complejidad, zona del cuerpo y tiempo estimado. Cada pieza es personalizada, por lo que siempre realizo presupuesto previo.",
-  },
-  {
-    question: "¿Se necesita señal para reservar?",
-    answer:
-      "Sí. Para confirmar cita se solicita una señal. Esta asegura tu fecha y se descuenta del precio final del tatuaje.",
-  },
-  {
-    question: "¿Haces covers o retoques?",
-    answer:
-      "Sí, realizo covers y también retoques de trabajos propios. Envíame una foto clara de la zona para poder valorarlo correctamente.",
-  },
-  {
-    question: "¿Edad mínima para tatuarse?",
-    answer: "La edad mínima es 18 años. No se realizan tatuajes a menores.",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export default function FaqEditorialSection() {
+  const t = useTranslations("faq");
+  const faqItems = t.raw("items") as Array<{ question: string; answer: string }>;
+
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
@@ -46,10 +18,10 @@ export default function FaqEditorialSection() {
       <div className="mx-auto max-w-[1000px]">
         <header>
           <p className="mb-8 text-xs uppercase tracking-[0.4em] text-white/40">
-            INFORMACIÓN
+            {t("label")}
           </p>
           <h2 className="mb-20 font-serif text-5xl leading-tight text-white md:text-6xl">
-            Preguntas frecuentes.
+            {t("title")}
           </h2>
         </header>
 

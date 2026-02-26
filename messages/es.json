@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "title": "Davinia Do Santo | Tattoo Artist",
+    "description": "Portfolio editorial de Davinia Do Santo. Realismo en blanco y negro, anime y color pop art con una estética cinematográfica y minimalista."
+  },
+  "nav": {
+    "brand": "Davinia Do Santo",
+    "artwork": "ARTWORK",
+    "locales": {
+      "es": "ES",
+      "en": "EN",
+      "fr": "FR",
+      "it": "IT",
+      "de": "DE",
+      "nl": "NL",
+      "pt": "PT"
+    }
+  },
+  "hero": {
+    "nameLine1": "DAVINIA",
+    "nameLine2": "DO SANTO",
+    "subtitle": "Realismo en blanco y negro · Anime · Color Pop Art",
+    "description": "Mi trabajo se centra en el realismo en blanco y negro, el estilo anime y el color pop art. Cada pieza nace desde la intención y la precisión."
+  },
+  "story": {
+    "lines": ["Cada tatuaje", "que hago cuenta", "una historia."]
+  },
+  "styles": {
+    "label": "MI ESTILO",
+    "headline": "Una selección de los estilos que trabajo.",
+    "cards": {
+      "realism_bn": {
+        "title": "REALISMO B/N",
+        "description": "Trabajo el realismo en blanco y negro buscando contraste, textura y profundidad.",
+        "alt": "Realismo en blanco y negro"
+      },
+      "anime": {
+        "title": "ANIME",
+        "description": "Interpreto personajes y escenas con narrativa clara y un trazo limpio.",
+        "alt": "Anime"
+      },
+      "color_pop_art": {
+        "title": "COLOR POP ART",
+        "description": "Color, energía y lectura pop con una composición pensada para tu cuerpo.",
+        "alt": "Color pop art"
+      }
+    }
+  },
+  "trajectory": {
+    "label": "MI CAMINO",
+    "title": "No aprendí solo a tatuar.\nAprendí a moverme con el arte.",
+    "timeline": [
+      {
+        "title": "SUIZA",
+        "text": "Donde consolidé mi técnica y precisión en realismo en blanco y negro."
+      },
+      {
+        "title": "CRUCEROS INTERNACIONALES",
+        "text": "Llevar mi arte a distintos países me enseñó a adaptar cada pieza a cada historia."
+      },
+      {
+        "title": "EVOLUCIÓN CONSTANTE",
+        "text": "No dejo de estudiar, experimentar y crecer como artista."
+      }
+    ]
+  },
+  "locationsAvailability": {
+    "label": "UBICACIÓN",
+    "title": "Disponible internacionalmente.",
+    "description": "Actualmente trabajo entre Suiza, Memphis21 (Gandia) y proyectos internacionales en cruceros. Mi agenda se organiza por temporadas y localización, por lo que las reservas se gestionan según disponibilidad.",
+    "list": ["SUIZA", "MEMPHIS21 · GANDIA", "CRUCEROS INTERNACIONALES", "EUROPA"],
+    "upcomingTitle": "Próximas fechas disponibles:",
+    "upcomingItems": ["— Marzo · Suiza", "— Junio · Crucero Mediterráneo"]
+  },
+  "process": {
+    "label": "EL PROCESO",
+    "title": "Cada pieza tiene su ritmo.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Concepto",
+        "description": "Escucho tu idea y la transformo en una dirección creativa clara y personal."
+      },
+      {
+        "number": "02",
+        "title": "Diseño",
+        "description": "Cada pieza se construye desde cero, adaptada a tu anatomía y estilo."
+      },
+      {
+        "number": "03",
+        "title": "Ejecución",
+        "description": "Trabajo preciso en un entorno profesional, cuidado y controlado."
+      }
+    ]
+  },
+  "studio": {
+    "label": "EL ESTUDIO",
+    "titleLines": ["Un espacio", "donde el detalle", "importa."],
+    "p1": "Trabajo en un entorno profesional, higiénico y controlado. Cada sesión se desarrolla con calma, precisión y respeto por tu piel.",
+    "p2": "Creo una experiencia personalizada donde la conversación y la confianza forman parte del proceso creativo.",
+    "imageAlt": "Interior del estudio"
+  },
+  "portfolio": {
+    "label": "MIS TRABAJOS",
+    "title": "Historias marcadas en piel.",
+    "descriptionLine1": "Cada pieza nace de una historia distinta.",
+    "descriptionLine2": "Filtra por estilo y explora mi universo artístico.",
+    "filters": {
+      "realism_bn": "REALISMO B/N",
+      "anime": "ANIME",
+      "color_pop_art": "COLOR POP ART",
+      "fine_line": "FINE LINE"
+    },
+    "galleryHeadingAll": "GALERÍA",
+    "count": "{count, plural, one {# pieza} other {# piezas}}",
+    "imageAlt": "Tatuaje estilo {style}"
+  },
+  "artwork": {
+    "label": "ARTE",
+    "title": "Más allá de la piel.",
+    "description": "Además del tatuaje, desarrollo mi trabajo artístico sobre lienzo. Cada obra mantiene mi esencia visual, explorando el realismo, el color y la expresión contemporánea.",
+    "items": [
+      { "alt": "Obra sobre lienzo 01" },
+      { "alt": "Obra sobre lienzo 02" },
+      { "alt": "Obra sobre lienzo 03" }
+    ]
+  },
+  "faq": {
+    "label": "INFORMACIÓN",
+    "title": "Preguntas frecuentes.",
+    "items": [
+      {
+        "question": "¿Cómo reservo una cita?",
+        "answer": "Las reservas se gestionan exclusivamente por WhatsApp. Escríbeme explicando tu idea, tamaño aproximado y zona del cuerpo. Te responderé con disponibilidad y presupuesto orientativo."
+      },
+      {
+        "question": "¿Trabajas todos los estilos?",
+        "answer": "Mi trabajo se centra en el realismo en blanco y negro, el estilo anime y el color pop art. Si tienes una idea diferente, escríbeme por WhatsApp y te digo si puedo encajarla."
+      },
+      {
+        "question": "¿Cuánto cuesta un tatuaje?",
+        "answer": "El precio depende del tamaño, complejidad, zona del cuerpo y tiempo estimado. Cada pieza es personalizada, por lo que siempre realizo presupuesto previo."
+      },
+      {
+        "question": "¿Se necesita señal para reservar?",
+        "answer": "Sí. Para confirmar cita se solicita una señal. Esta asegura tu fecha y se descuenta del precio final del tatuaje."
+      },
+      {
+        "question": "¿Haces covers o retoques?",
+        "answer": "Sí, realizo covers y también retoques de trabajos propios. Envíame una foto clara de la zona para poder valorarlo correctamente."
+      },
+      {
+        "question": "¿Edad mínima para tatuarse?",
+        "answer": "La edad mínima es 18 años. No se realizan tatuajes a menores."
+      }
+    ]
+  },
+  "booking": {
+    "label": "RESERVAS",
+    "title": "Hablemos de tu próxima pieza.",
+    "p1": "Si tienes una idea en mente o quieres empezar desde cero, escríbeme directamente y le damos forma.",
+    "locationsTitle": "Reservas disponibles en:",
+    "locations": ["Suiza", "Memphis21 · Gandia", "Cruceros internacionales"],
+    "whatsappOnly": "Las reservas se gestionan exclusivamente por WhatsApp.",
+    "whatsappCta": "RESERVAR POR WHATSAPP",
+    "instagramCta": "VER MÁS TRABAJOS EN INSTAGRAM",
+    "instagramNoteLine1": "Instagram es solo para ver trabajos.",
+    "instagramNoteLine2": "Las reservas se gestionan únicamente por WhatsApp."
+  },
+  "footer": {
+    "brandTitle": "DAVINIA DO SANTO",
+    "subtextLine1": "Realismo · Anime · Color Pop Art",
+    "subtextLine2": "Artista internacional",
+    "locationLabel": "UBICACIÓN",
+    "locations": ["Suiza", "Memphis21 · Gandia", "Cruceros internacionales", "Europa"],
+    "contactLabel": "CONTACTO",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "copyright": "© 2026 Davinia Do Santo",
+    "rights": "Todos los derechos reservados."
+  },
+  "schema": {
+    "jobTitle": "Tattoo Artist",
+    "addressLocality": "Suiza",
+    "addressCountry": "CH",
+    "url": "https://memphis21.art"
+  },
+  "processLegacy": {
+    "eyebrow": "Experiencia",
+    "title": "Un proceso personal, exclusivo y completamente guiado.",
+    "steps": [
+      {
+        "id": "01",
+        "title": "Concepto",
+        "description": "Conversación personal para traducir idea, emoción y referencias en dirección visual."
+      },
+      {
+        "id": "02",
+        "title": "Diseño",
+        "description": "Boceto exclusivo con composición adaptada al cuerpo y una lectura estética atemporal."
+      },
+      {
+        "id": "03",
+        "title": "Ejecución",
+        "description": "Sesión precisa y controlada, enfocada en detalle, ritmo y resultado elegante."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Booking",
+    "title": "Si tu próxima pieza merece una dirección artística real, empecemos.",
+    "description": "Agenda abierta para proyectos seleccionados. Reservas disponibles en Suiza, Memphis21 (Gandia) y cruceros internacionales.",
+    "instagram": "Instagram",
+    "copyright": "{brand} © 2026"
+  },
+  "signature": {
+    "label": "Selección de autor",
+    "items": [
+      {
+        "alt": "Detalle artístico",
+        "title": "Líneas orgánicas"
+      },
+      {
+        "alt": "Composición editorial",
+        "title": "Contraste editorial"
+      },
+      {
+        "alt": "Textura visual",
+        "title": "Textura cinematográfica"
+      }
+    ]
+  }
+}

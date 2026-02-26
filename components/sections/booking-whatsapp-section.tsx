@@ -1,8 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export default function BookingWhatsappSection() {
+  const t = useTranslations("booking");
+  const locations = t.raw("locations") as string[];
+
   return (
     <section
       id="booking_whatsapp_section_v2"
@@ -16,7 +20,7 @@ export default function BookingWhatsappSection() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mb-8 text-xs uppercase tracking-[0.4em] text-white/40"
         >
-          RESERVAS
+          {t("label")}
         </motion.p>
 
         <motion.h2
@@ -26,7 +30,7 @@ export default function BookingWhatsappSection() {
           transition={{ duration: 0.8, delay: 0.08, ease: "easeOut" }}
           className="mb-10 font-serif text-5xl leading-tight text-white md:text-6xl"
         >
-          Hablemos de tu próxima pieza.
+          {t("title")}
         </motion.h2>
 
         <motion.div
@@ -36,12 +40,15 @@ export default function BookingWhatsappSection() {
           transition={{ duration: 0.8, delay: 0.16, ease: "easeOut" }}
           className="mx-auto mb-12 max-w-2xl text-lg leading-relaxed text-white/60"
         >
-          <p>
-            Si tienes una idea en mente o quieres empezar desde cero,
-            escríbeme directamente y le damos forma.
-          </p>
+          <p>{t("p1")}</p>
           <p className="mt-4">
-            Las reservas se gestionan exclusivamente por WhatsApp.
+            {t("locationsTitle")}
+            <br />
+            {locations[0]}
+            <br />
+            {locations[1]}
+            <br />
+            {t("whatsappOnly")}
           </p>
         </motion.div>
 
@@ -60,23 +67,23 @@ export default function BookingWhatsappSection() {
           >
             <span className="absolute inset-0 translate-x-[-100%] bg-white transition-transform duration-500 ease-out group-hover:translate-x-0" />
             <span className="relative z-10 transition-colors duration-500 group-hover:text-black">
-              RESERVAR POR WHATSAPP
+              {t("whatsappCta")}
             </span>
           </a>
 
           <div className="flex flex-col items-center justify-center">
             <a
-              href="https://www.instagram.com/memphis21tattoo/"
+              href="https://www.instagram.com/daviniadosantotattoo/"
               target="_blank"
               rel="noopener noreferrer"
               className="relative text-sm uppercase tracking-[0.3em] text-white/50 transition duration-300 after:absolute after:-bottom-2 after:left-0 after:h-px after:w-0 after:bg-white after:transition-all after:duration-500 hover:text-white hover:after:w-full"
             >
-              VER MÁS TRABAJOS EN INSTAGRAM
+              {t("instagramCta")}
             </a>
             <p className="mx-auto mt-4 max-w-sm text-xs text-white/30">
-              Instagram es solo para ver trabajos.
+              {t("instagramNoteLine1")}
               <br />
-              Las reservas se gestionan únicamente por WhatsApp.
+              {t("instagramNoteLine2")}
             </p>
           </div>
         </motion.div>

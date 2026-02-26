@@ -2,8 +2,10 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { useTranslations } from "next-intl";
 
 export default function StorySection() {
+  const t = useTranslations("story");
   const sectionRef = useRef<HTMLElement | null>(null);
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -11,7 +13,7 @@ export default function StorySection() {
   });
 
   const textY = useTransform(scrollYProgress, [0, 1], [16, -16]);
-  const lines = ["Cada tatuaje", "es una historia", "irrepetible."];
+  const lines = t.raw("lines") as string[];
 
   return (
     <section
