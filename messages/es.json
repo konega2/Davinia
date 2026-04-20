@@ -47,20 +47,36 @@
     }
   },
   "trajectory": {
-    "label": "MI CAMINO",
-    "title": "No aprendí solo a tatuar.\nAprendí a moverme con el arte.",
+    "label": "TRAYECTORIA",
+    "title": "Mi recorrido profesional.",
     "timeline": [
       {
-        "title": "SUIZA",
-        "text": "Donde consolidé mi técnica y precisión en realismo en blanco y negro."
+        "title": "2007 · BASE TÉCNICA",
+        "text": "Comencé en el sector de la estética y me formé en micropigmentación de cejas, labios y ojos. Esta etapa fue clave para desarrollar precisión, sensibilidad estética y conocimiento profundo del trabajo sobre la piel."
       },
       {
-        "title": "CRUCEROS INTERNACIONALES",
-        "text": "Llevar mi arte a distintos países me enseñó a adaptar cada pieza a cada historia."
+        "title": "2010 · PASO AL TATUAJE ARTÍSTICO",
+        "text": "Empecé a formarme en tatuaje artístico con cursos especializados hasta dedicarme por completo a este oficio."
       },
       {
-        "title": "EVOLUCIÓN CONSTANTE",
-        "text": "No dejo de estudiar, experimentar y crecer como artista."
+        "title": "EXPERIENCIA INTERNACIONAL",
+        "text": "He realizado miles de tatuajes y trabajado como guest artist en Valencia, Madrid, Barcelona, Sevilla, Vigo, Alemania, Italia, Suiza y Nueva York."
+      },
+      {
+        "title": "VIRGIN VOYAGES · CARIBE Y ALTA MAR",
+        "text": "Una etapa muy especial de mi carrera ha sido tatuar a bordo del crucero Virgin Voyages, trabajando con clientes de distintas nacionalidades y culturas."
+      },
+      {
+        "title": "DESDE 2023 · TOMORROWLAND",
+        "text": "Participo como artista colaboradora en el festival internacional Tomorrowland, una experiencia de gran impulso profesional y visibilidad internacional."
+      },
+      {
+        "title": "ESTUDIOS CREADOS Y DIRIGIDOS",
+        "text": "He creado y gestionado tres estudios: Davinia Tattoo Art, Art Factory Tattoo y Memphis 21 Tattoo (Gandía), además de formar y colaborar con otros tatuadores."
+      },
+      {
+        "title": "ACTUALIDAD",
+        "text": "Desarrollo mi actividad de forma continua en Buda Tattoo, Gandía y en eventos internacionales, guest spots y festivales."
       }
     ]
   },
@@ -135,7 +151,7 @@
       },
       {
         "question": "¿Trabajas todos los estilos?",
-        "answer": "Mi trabajo se centra en el realismo en blanco y negro, el estilo anime y el color pop art. Si tienes una idea diferente, escríbeme por WhatsApp y te digo si puedo encajarla."
+        "answer": "Mi estilo principal es el realismo, y también trabajo de forma habitual anime/cartoon, pop art a color, geométrico y fine line. He trabajado múltiples estilos durante años y adapto cada proyecto para lograr un resultado sólido y profesional."
       },
       {
         "question": "¿Cuánto cuesta un tatuaje?",
